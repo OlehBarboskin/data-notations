@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<geometricFigures>
+    <figure>
+        <name>Rhombus</name>
+        <type>2D</type>
+        <properties>
+            <property>Side</property>
+            <property>DiagonalS</property>
+            <property>DiagonalL</property>
+        </properties>
+    </figure>
+    <figure>
+        <name>Square</name>
+        <type>2D</type>
+        <properties>
+            <property>Side Length</property>
+        </properties>
+        <formulas>
+            <area>side^2</area>
+            <perimeter>4 * side</perimeter>
+        </formulas>
+    </figure>
+</geometricFigures>
